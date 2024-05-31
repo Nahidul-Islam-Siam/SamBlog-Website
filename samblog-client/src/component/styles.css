@@ -1,0 +1,38 @@
+.shared-background {
+  background: linear-gradient(135deg, #f3ec78, #af4261);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+.header-banner, .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.header-banner {
+  height: 100vh;
+  flex-direction: column;
+}
+
+.navbar {
+  height: 60px; /* Adjust as needed */
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+button {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
